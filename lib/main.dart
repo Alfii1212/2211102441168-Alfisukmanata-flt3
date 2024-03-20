@@ -54,3 +54,12 @@ class MyHomePage extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
               ),
+              SizedBox(height: 20.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Icon(Icons.favorite, size: 50.0, color: Colors.red),
+                  Icon(Icons.star, size: 50.0, color: Colors.yellow),
+                  Icon(Icons.thumb_up, size: 50.0, color: Colors.blue),
+                ],
+              ),
